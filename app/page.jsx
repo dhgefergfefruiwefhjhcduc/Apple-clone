@@ -126,7 +126,7 @@ export default function Page() {
           </div>
 
 
-          <div className="w-full mt-4 hero13 h-[98vh] flex items-center justify-center bg-[#f5f5f7] text-white text-center p-6">
+          <div className="w-full mt-4 hero7 hero13 h-[98vh] flex items-center justify-center bg-[#f5f5f7] text-white text-center p-6">
             <div className='mt-[6.5rem] hero3'>
               <div className='flex justify-center items-center'>
                 <img src='/apple2.svg' alt='img5' className='h-[52px] w-[52px]'></img>
