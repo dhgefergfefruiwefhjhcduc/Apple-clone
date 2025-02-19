@@ -1,5 +1,4 @@
 "use client"
-import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Page() {
@@ -65,16 +64,16 @@ export default function Page() {
               <div className='h-full w-full flex justify-center gap-9 items-center bg-[black]'>
                 <img className='h-5 w-5' alt='applelogo' src='/apple.svg'></img>
                 <ul className='flex gap-9 text-xs text-[rgb(156,156,156)] font-semibold'>
-                  <li><Link href="/mac" className="">Store</Link></li>
-                  <li><Link href="/mac" className="">Mac</Link></li>
-                  <li><Link href="/ipad" className="">iPad</Link></li>
-                  <li><Link href="/iphone" className="">iPhone</Link></li>
-                  <li><Link href="/watch" className="">Watch</Link></li>
-                  <li><Link href="/support" className="">Airpods</Link></li>
-                  <li><Link href="/support" className="">TV and Home</Link></li>
-                  <li><Link href="/support" className="">Entertainment</Link></li>
-                  <li><Link href="/support" className="">Accessories</Link></li>
-                  <li><Link href="/support" className="">Support</Link></li>
+                  <li><a href="/mac" className="">Store</a></li>
+                  <li><a href="/mac" className="">Mac</a></li>
+                  <li><a href="/ipad" className="">iPad</a></li>
+                  <li><a href="/iphone" className="">iPhone</a></li>
+                  <li><a href="/watch" className="">Watch</a></li>
+                  <li><a href="/support" className="">Airpods</a></li>
+                  <li><a href="/support" className="">TV and Home</a></li>
+                  <li><a href="/support" className="">Entertainment</a></li>
+                  <li><a href="/support" className="">Accessories</a></li>
+                  <li><a href="/support" className="">Support</a></li>
                   <img src='/search.svg' alt='search' className='cursor-pointer h-4 w-4'></img>
                   <img src='/cart.svg' alt='cart' className='cursor-pointer h-4 w-4'></img>
                 </ul>
